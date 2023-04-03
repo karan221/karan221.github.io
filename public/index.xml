@@ -6,5 +6,17 @@
     <description>Recent content on Karan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hi there, I&amp;rsquo;m Karan Yadav Thank you for visiting my site. I am a software engineer from Ghaziabad, India. I like to learn things that peaque my interest. Currently I&amp;rsquo;m learning about web servers and backend web frameworks.</description>
+      <content>&lt;h3 id=&#34;hi-there-im-karan-yadav&#34;&gt;Hi there, I&amp;rsquo;m Karan Yadav&lt;/h3&gt;
+&lt;p&gt;Thank you for visiting my site. I am a software engineer from Ghaziabad, India. I like to learn things that peaque my interest. Currently I&amp;rsquo;m learning about web servers and backend web frameworks.&lt;/p&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>
