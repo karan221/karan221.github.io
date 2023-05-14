@@ -5,9 +5,8 @@
         <span>{{ $.Site.Copyright | safeHTML }}</span>
     {{ else }}
       <div class="copyright">
-        <span>© {{ now.Year }} Powered by <a href="http://gohugo.io">Hugo</a></span>
+        <span>© {{ now.Year }} Karan Yadav</span>
     {{ end }}
-      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
       </div>
   </div>
 </footer>
@@ -17,6 +16,13 @@
 
 {{ $bundle := slice $menu $prism | resources.Concat "bundle.js" | resources.Minify }}
 
+<script src="https://utteranc.es/client.js"
+  repo="karan221.github.io"
+  issue-term="pathname"
+  theme="github-dark"
+  crossorigin="anonymous"
+  async>
+</script>
 <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
 
 <!-- Extended footer section-->
