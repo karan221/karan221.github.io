@@ -1,5 +1,6 @@
 ---
 title: "About"
+hideComments: true
 ---
 
 ### Hi there, I'm Karan Yadav
