@@ -3,14 +3,14 @@ title = "Journey of a Http Request From Cloudlare to Your Controller"
 date = "2023-04-03T23:57:33+05:30"
 author = ""
 authorTwitter = "" #do not include @
-cover = ""
+cover = "journey.jpg"
 tags = ["web", "backend"]
 keywords = ["http", "web servers", "middlewares"]
 description = "This article discusses about how production servers sit on the cloud and serve http requests"
 showFullContent = false
 readingTime = true
 hideComments = false
-color = "red" #color from the theme settings
+color = "orange" #color from the theme settings
 Toc = true
 +++
 
@@ -39,7 +39,7 @@ A proxy server is a server that sits between an server and a client. It relays c
 
 The forward proxy is like a VPN, it makes requests to the server on behalf of the client but it doesn't encrypt traffic like VPN. It can look at the content of the request and inspect it to determine if it should forward the request.
 
-Reverse proxy masks the server from
+Reverse proxy sits in front of origin server, unlike forward proxy which sits in front of client. It ensures that the origin server never communicates with a client directly. Reverse proxy is used to Load Balance primarily but it has other benefits too like - ddos protection and caching.
 
 ### The journey
 
