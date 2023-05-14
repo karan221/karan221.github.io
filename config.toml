@@ -65,7 +65,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Karan"
+    title = "Karan Yadav"
     subtitle = "A simple, retro theme for Hugo"
     owner = ""
     keywords = ""
@@ -81,7 +81,7 @@ paginate = 5
     words = "words"
 
     [languages.en.params.logo]
-      logoText = "Karan"
+      logoText = "Karan Yadav"
       logoHomeLink = "/"
 
     [languages.en.menu]
