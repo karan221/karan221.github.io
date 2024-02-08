@@ -1,5 +1,5 @@
 +++
-title = "Journey of a Http Request From Cloudlare to Your Controller"
+title = "Journey of a Http Request From Cloudflare to Your Controller"
 date = "2023-04-03T23:57:33+05:30"
 author = ""
 authorTwitter = "" #do not include @
@@ -14,12 +14,13 @@ color = "orange" #color from the theme settings
 Toc = true
 +++
 
-This is an oversimplified overview of how applications are deployed on production environments.
+This is a simplified overview of how I  applications are deployed on production environments. 
+
 
 ### What is a web server?
 
-A web server only responds to HTTP requests. Examples of web servers include Nginx, unicorn, apache, and Microsoft IIS. Web servers connect with application servers using a variety of protocols over TCP ports.
-Python, Flask and Fastapi use WSGI protocol. Rails is built upon the Rack to serve application requests.
+A web server is a server that only responds to HTTP requests. Examples of web servers include Nginx, unicorn, apache, and Microsoft IIS. Web servers connect with application servers using a variety of protocols over TCP ports.
+Python frameworks - Django, Flask and Fastapi use WSGI protocol. Rails is built upon Rack to serve application requests.
 A Web server is more secure than an application server. It even caches static data.
 A web server can also act like a load balancer and reverse proxy. We discuss proxies in the next section. Web servers are very light on CPU and RAM. Web servers are very efficient and run single threadedly, they have built-in DDoS protection too.
 
@@ -31,7 +32,7 @@ An Application server sits between the web server and the application code, it a
 * Perform reporting and logging
 
 Python Web Applications (WSGI) commonly use uWSGI and Gunicorn as their application server.
-Puma, Unicorn, Phusion Passenger are commonly used Ruby (Rack based) Applications.
+Puma, Unicorn, Phusion Passenger are commonly used to deploy Ruby (Rack based) Applications.
 
 ### What is a Proxy server?
 
